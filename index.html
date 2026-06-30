@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Qianxi Lu portfolio for production-minded GenAI, RAG, and AI agent applications.">
+    <title>Qianxi Lu | AI Engineering Portfolio</title>
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Qianxi Lu portfolio home">Qianxi Lu</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro-section">
+        <div class="intro-copy">
+          <p class="eyebrow">AI Engineer in progress</p>
+          <h1>Production-minded GenAI portfolio for RAG, agents, and deployable AI apps.</h1>
+          <p class="intro-text">
+            I build practical AI systems that can be designed, tested, deployed, documented, and explained in internship and full-time interviews.
+          </p>
+          <div class="action-row" aria-label="Primary links">
+            <a class="button primary" href="https://github.com/Tony-QianxiLU" target="_blank" rel="noreferrer" title="Open GitHub profile">
+              <i data-lucide="github"></i>
+              GitHub
+            </a>
+            <a class="button" href="resume.html" title="Open resume page">
+              <i data-lucide="file-text"></i>
+              Resume
+            </a>
+          </div>
+        </div>
+        <div class="proof-panel" aria-label="Portfolio proof points">
+          <div>
+            <span class="metric">2</span>
+            <span class="label">deployed GenAI apps</span>
+          </div>
+          <div>
+            <span class="metric">35</span>
+            <span class="label">passing tests across featured repos</span>
+          </div>
+          <div>
+            <span class="metric">CI</span>
+            <span class="label">GitHub Actions on both projects</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Featured projects</p>
+          <h2>Interview-ready GenAI applications</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/rag-chatbot.png" alt="AI RAG Chatbot Streamlit interface showing sample document ingestion." loading="lazy">
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>AI RAG Chatbot</h3>
+                <span class="status">Live</span>
+              </div>
+              <p>
+                Document-based chatbot with sample data, chunking, retrieval, citations, local and OpenAI embedding modes, tests, CI, deployment docs, and release notes.
+              </p>
+              <ul class="tag-list" aria-label="RAG technology stack">
+                <li>Python</li>
+                <li>Streamlit</li>
+                <li>Chroma</li>
+                <li>OpenAI API</li>
+                <li>pytest</li>
+              </ul>
+              <div class="link-row">
+                <a href="https://ry84fwqnk4abfhufqkhrmz.streamlit.app/" target="_blank" rel="noreferrer" title="Open RAG live demo">
+                  <i data-lucide="external-link"></i>
+                  Live demo
+                </a>
+                <a href="https://github.com/Tony-QianxiLU/ai-rag-chatbot" target="_blank" rel="noreferrer" title="Open RAG repository">
+                  <i data-lucide="github"></i>
+                  Code
+                </a>
+                <a href="https://github.com/Tony-QianxiLU/ai-rag-chatbot/releases/tag/v0.2.0" target="_blank" rel="noreferrer" title="Open RAG release">
+                  <i data-lucide="tag"></i>
+                  v0.2.0
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/agent-assistant.png" alt="AI Agent Assistant Streamlit interface showing plan and calculator tool result." loading="lazy">
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>AI Agent Assistant</h3>
+                <span class="status">Live</span>
+              </div>
+              <p>
+                Tool-using assistant with planning, calculator/search tools, LangGraph workflow, execution memory, failure-safe tool results, tests, CI, docs, and deployment.
+              </p>
+              <ul class="tag-list" aria-label="Agent technology stack">
+                <li>Python</li>
+                <li>LangGraph</li>
+                <li>Streamlit</li>
+                <li>Tool calling</li>
+                <li>pytest</li>
+              </ul>
+              <div class="link-row">
+                <a href="https://tony-qianxilu-ai-agent-assistant.streamlit.app/" target="_blank" rel="noreferrer" title="Open agent live demo">
+                  <i data-lucide="external-link"></i>
+                  Live demo
+                </a>
+                <a href="https://github.com/Tony-QianxiLU/ai-agent-assistant" target="_blank" rel="noreferrer" title="Open agent repository">
+                  <i data-lucide="github"></i>
+                  Code
+                </a>
+                <a href="https://github.com/Tony-QianxiLU/ai-agent-assistant/releases/tag/v0.2.0" target="_blank" rel="noreferrer" title="Open agent release">
+                  <i data-lucide="tag"></i>
+                  v0.2.0
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="stack" class="section split-section">
+        <div>
+          <p class="eyebrow">Technical stack</p>
+          <h2>Tools I am using to build production-quality AI apps</h2>
+          <p>
+            My current work focuses on the full loop: Python application code, LLM integrations, retrieval or agent orchestration, tests, CI, deployment, and explanation-ready documentation.
+          </p>
+        </div>
+        <div class="stack-grid" aria-label="Technology stack">
+          <span>Python 3.12</span>
+          <span>OpenAI API</span>
+          <span>Streamlit</span>
+          <span>LangGraph</span>
+          <span>Chroma</span>
+          <span>pytest</span>
+          <span>Ruff</span>
+          <span>GitHub Actions</span>
+          <span>GitHub CLI</span>
+          <span>uv</span>
+        </div>
+      </section>
+
+      <section class="section evidence-section">
+        <div class="section-heading">
+          <p class="eyebrow">Engineering habits</p>
+          <h2>What the portfolio is designed to prove</h2>
+        </div>
+        <div class="evidence-grid">
+          <article>
+            <h3>Build</h3>
+            <p>Modular source packages, typed data models, deterministic fallbacks, and user-facing Streamlit interfaces.</p>
+          </article>
+          <article>
+            <h3>Test</h3>
+            <p>Unit tests for ingestion, retrieval, graph behavior, planner decisions, and tool failure handling.</p>
+          </article>
+          <article>
+            <h3>Deploy</h3>
+            <p>Public Streamlit apps, GitHub releases, deployment notes, repo metadata, and CI status checks.</p>
+          </article>
+          <article>
+            <h3>Explain</h3>
+            <p>README walkthroughs, architecture diagrams, screenshots, demo GIFs, and interview explanation scripts.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="resume" class="section resume-section">
+        <div>
+          <p class="eyebrow">Background</p>
+          <h2>Multidisciplinary foundation for applied AI work</h2>
+        </div>
+        <div class="resume-content">
+          <p>
+            I bring a mix of technical engineering, urban systems thinking, and business education into AI product development. That background helps me connect model behavior, product value, user workflows, and operational risk.
+          </p>
+          <ul>
+            <li>MSc Urban Development Planning, University College London</li>
+            <li>MSc Structural Engineering, University of Leeds</li>
+            <li>First Class Honours, Business Studies, University of Greenwich</li>
+          </ul>
+          <a class="button" href="resume.html" title="Open full resume">
+            <i data-lucide="file-text"></i>
+            Full resume
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <p class="eyebrow">Contact</p>
+        <h2>Explore the work</h2>
+        <p>
+          The best current contact path is GitHub. The repositories include live demos, source code, tests, release notes, and architecture documentation.
+        </p>
+        <div class="action-row">
+          <a class="button primary" href="https://github.com/Tony-QianxiLU" target="_blank" rel="noreferrer" title="Open GitHub profile">
+            <i data-lucide="github"></i>
+            GitHub profile
+          </a>
+          <a class="button" href="https://github.com/Tony-QianxiLU?tab=repositories" target="_blank" rel="noreferrer" title="Open repositories">
+            <i data-lucide="folder-git-2"></i>
+            Repositories
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Qianxi Lu</span>
+      <span id="year"></span>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
