@@ -10,8 +10,9 @@ GitHub Pages: <https://tony-qianxilu.github.io/portfolio/>
 
 - [AI RAG Chatbot](https://github.com/Tony-QianxiLU/ai-rag-chatbot)
 - [AI Agent Assistant](https://github.com/Tony-QianxiLU/ai-agent-assistant)
+- [AI Resume Analyzer](https://github.com/Tony-QianxiLU/resume-analyzer)
 
-The site includes live demo links, release links, project screenshots, and 63-second walkthrough videos for both featured projects.
+The site includes demo links, release links, project screenshots, and 63-second walkthrough videos for featured projects.
 
 ## Local Preview
 
