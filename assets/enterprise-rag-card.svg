@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Enterprise RAG</title>
+  <desc id="desc">Placeholder project card for Enterprise RAG -- a screenshot will replace this once a live demo is captured.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#24262d"/>
+      <stop offset="100%" stop-color="#2f3542"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <text x="60" y="180" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Enterprise RAG</text>
+  <text x="60" y="222" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22" fill="#c7ccd4">FastAPI + Streamlit + LangChain + LlamaIndex + Chroma</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700">
+    <rect x="60" y="270" width="120" height="36" rx="18" fill="#445fd2"/>
+    <text x="120" y="293" fill="#ffffff" text-anchor="middle">FastAPI</text>
+
+    <rect x="196" y="270" width="112" height="36" rx="18" fill="#2f7d59"/>
+    <text x="252" y="293" fill="#ffffff" text-anchor="middle">Auth</text>
+
+    <rect x="324" y="270" width="150" height="36" rx="18" fill="#e84d3d"/>
+    <text x="399" y="293" fill="#ffffff" text-anchor="middle">Vector Store</text>
+
+    <rect x="490" y="270" width="150" height="36" rx="18" fill="#f1b93b"/>
+    <text x="565" y="293" fill="#24262d" text-anchor="middle">Evaluation</text>
+  </g>
+
+  <text x="60" y="400" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8b92a0">Screenshot coming soon -- v0.1.0 released, CI green, 56 tests passing</text>
+</svg>

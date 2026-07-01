@@ -62,11 +62,19 @@
           <li>Added deterministic fallback behavior plus optional OpenAI structured enhancement for production-safe demos.</li>
           <li>Published Docker files, CI, tests, evaluation reports, architecture docs, screenshots, demo GIF, walkthrough video, release notes, and deployment guidance.</li>
         </ul>
+
+        <h3>Enterprise RAG</h3>
+        <ul>
+          <li>Built a production-shaped enterprise RAG platform: FastAPI backend with JWT auth and role-based access, an admin dashboard, and a decoupled Streamlit frontend.</li>
+          <li>Implemented multi-format document ingestion (PDF, DOCX, PPTX, TXT, Markdown), token-aware chunking, and a Chroma-backed vector store behind a Protocol designed for a future pgvector migration.</li>
+          <li>Added a LlamaIndex-backed alternative retrieval implementation alongside the LangChain-based pipeline to demonstrate both frameworks on the same interface.</li>
+          <li>Published Docker Compose, CI with a dedicated Docker build check, 56 passing tests, an offline evaluation suite, and full documentation including architecture, API reference, deployment, and interview prep.</li>
+        </ul>
       </section>
 
       <section class="resume-block">
         <h2>Technical Skills</h2>
-        <p>Python, FastAPI, Streamlit, OpenAI API, LangGraph, Chroma, RAG, tool calling, ATS-style scoring, pytest, Ruff, uv, Docker, Git, GitHub CLI, GitHub Actions, deployment documentation, technical writing.</p>
+        <p>Python, FastAPI, Streamlit, OpenAI API, LangChain, LangGraph, LlamaIndex, Chroma, SQLAlchemy, RAG, tool calling, JWT auth, ATS-style scoring, pytest, Ruff, uv, Docker, Git, GitHub CLI, GitHub Actions, deployment documentation, technical writing.</p>
       </section>
 
       <section class="resume-block">
